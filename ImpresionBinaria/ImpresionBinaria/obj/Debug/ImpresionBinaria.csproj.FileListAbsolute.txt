@@ -1,0 +1,6 @@
+C:\Users\Developer\Documents\Algoritmos\ImpresionBinaria\ImpresionBinaria\bin\Debug\ImpresionBinaria.exe.config
+C:\Users\Developer\Documents\Algoritmos\ImpresionBinaria\ImpresionBinaria\bin\Debug\ImpresionBinaria.exe
+C:\Users\Developer\Documents\Algoritmos\ImpresionBinaria\ImpresionBinaria\bin\Debug\ImpresionBinaria.pdb
+C:\Users\Developer\Documents\Algoritmos\ImpresionBinaria\ImpresionBinaria\obj\Debug\ImpresionBinaria.csprojAssemblyReference.cache
+C:\Users\Developer\Documents\Algoritmos\ImpresionBinaria\ImpresionBinaria\obj\Debug\ImpresionBinaria.exe
+C:\Users\Developer\Documents\Algoritmos\ImpresionBinaria\ImpresionBinaria\obj\Debug\ImpresionBinaria.pdb
