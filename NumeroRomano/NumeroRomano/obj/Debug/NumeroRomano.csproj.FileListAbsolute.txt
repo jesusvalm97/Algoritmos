@@ -4,3 +4,9 @@ C:\Users\Developer\Documents\Algoritmos\NumeroRomano\NumeroRomano\bin\Debug\Nume
 C:\Users\Developer\Documents\Algoritmos\NumeroRomano\NumeroRomano\obj\Debug\NumeroRomano.csprojAssemblyReference.cache
 C:\Users\Developer\Documents\Algoritmos\NumeroRomano\NumeroRomano\obj\Debug\NumeroRomano.exe
 C:\Users\Developer\Documents\Algoritmos\NumeroRomano\NumeroRomano\obj\Debug\NumeroRomano.pdb
+C:\Desarrollo\Algoritmos\NumeroRomano\NumeroRomano\bin\Debug\NumeroRomano.exe.config
+C:\Desarrollo\Algoritmos\NumeroRomano\NumeroRomano\bin\Debug\NumeroRomano.exe
+C:\Desarrollo\Algoritmos\NumeroRomano\NumeroRomano\bin\Debug\NumeroRomano.pdb
+C:\Desarrollo\Algoritmos\NumeroRomano\NumeroRomano\obj\Debug\NumeroRomano.exe
+C:\Desarrollo\Algoritmos\NumeroRomano\NumeroRomano\obj\Debug\NumeroRomano.pdb
+C:\Desarrollo\Algoritmos\NumeroRomano\NumeroRomano\obj\Debug\NumeroRomano.csprojAssemblyReference.cache

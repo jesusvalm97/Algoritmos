@@ -1,0 +1,11 @@
+C:\Desarrollo\Algoritmos\SendEmail\SendEmail\bin\Debug\netcoreapp3.1\SendEmail.exe
+C:\Desarrollo\Algoritmos\SendEmail\SendEmail\bin\Debug\netcoreapp3.1\SendEmail.deps.json
+C:\Desarrollo\Algoritmos\SendEmail\SendEmail\bin\Debug\netcoreapp3.1\SendEmail.runtimeconfig.json
+C:\Desarrollo\Algoritmos\SendEmail\SendEmail\bin\Debug\netcoreapp3.1\SendEmail.runtimeconfig.dev.json
+C:\Desarrollo\Algoritmos\SendEmail\SendEmail\bin\Debug\netcoreapp3.1\SendEmail.dll
+C:\Desarrollo\Algoritmos\SendEmail\SendEmail\bin\Debug\netcoreapp3.1\SendEmail.pdb
+C:\Desarrollo\Algoritmos\SendEmail\SendEmail\obj\Debug\netcoreapp3.1\SendEmail.csprojAssemblyReference.cache
+C:\Desarrollo\Algoritmos\SendEmail\SendEmail\obj\Debug\netcoreapp3.1\SendEmail.AssemblyInfoInputs.cache
+C:\Desarrollo\Algoritmos\SendEmail\SendEmail\obj\Debug\netcoreapp3.1\SendEmail.AssemblyInfo.cs
+C:\Desarrollo\Algoritmos\SendEmail\SendEmail\obj\Debug\netcoreapp3.1\SendEmail.dll
+C:\Desarrollo\Algoritmos\SendEmail\SendEmail\obj\Debug\netcoreapp3.1\SendEmail.pdb
