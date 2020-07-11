@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\OKHOSTING.Core\src\Standard\OKHOSTING.Core\OKHOSTING.Core.csproj" />
+    <ProjectReference Include="..\..\..\OKHOSTING.UI\src\Standard\OKHOSTING.UI.CSS\OKHOSTING.UI.CSS.csproj" />
+    <ProjectReference Include="..\..\..\OKHOSTING.UI\src\Standard\OKHOSTING.UI\OKHOSTING.UI.csproj" />
+    <ProjectReference Include="..\RicoPollo\RicoPollo.csproj" />
+  </ItemGroup>
+
+</Project>
