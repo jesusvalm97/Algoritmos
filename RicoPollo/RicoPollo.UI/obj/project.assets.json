@@ -96,7 +96,7 @@
           "bin/placeholder/OKHOSTING.Core.dll": {}
         }
       },
-      "OKHOSTING.Data/2.0.0": {
+      "OKHOSTING.Data/2.0.5": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -115,7 +115,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "OKHOSTING.Core": "2.0.4",
-          "OKHOSTING.Data": "2.0.0"
+          "OKHOSTING.Data": "2.0.5"
         },
         "compile": {
           "bin/placeholder/OKHOSTING.UI.dll": {}
@@ -131,7 +131,7 @@
           "AngleSharp": "0.14.0",
           "AngleSharp.Css": "0.14.1",
           "OKHOSTING.Core": "2.0.4",
-          "OKHOSTING.Data": "2.0.0",
+          "OKHOSTING.Data": "2.0.5",
           "OKHOSTING.UI": "1.0.0"
         },
         "compile": {
@@ -451,7 +451,7 @@
       "path": "../../../OKHOSTING.Core/src/Standard/OKHOSTING.Core/OKHOSTING.Core.csproj",
       "msbuildProject": "../../../OKHOSTING.Core/src/Standard/OKHOSTING.Core/OKHOSTING.Core.csproj"
     },
-    "OKHOSTING.Data/2.0.0": {
+    "OKHOSTING.Data/2.0.5": {
       "type": "project",
       "path": "../../../OKHOSTING.Data/src/Standard/OKHOSTING.Data/OKHOSTING.Data.csproj",
       "msbuildProject": "../../../OKHOSTING.Data/src/Standard/OKHOSTING.Data/OKHOSTING.Data.csproj"
@@ -553,7 +553,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

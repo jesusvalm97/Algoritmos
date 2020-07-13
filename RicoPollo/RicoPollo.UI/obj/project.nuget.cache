@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "yww4gmjeyoUqoN9jMpSeYNUZIgLY6KExJLq4NOSt189bvB1rF+y9mFlJDLrXQYRZqMfVmon0wxqBLEsVDTlL9g==",
+  "success": true,
+  "projectFilePath": "C:\\Desarrollo\\Algoritmos\\RicoPollo\\RicoPollo.UI\\RicoPollo.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jesus\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\anglesharp.css\\0.14.1\\anglesharp.css.0.14.1.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
