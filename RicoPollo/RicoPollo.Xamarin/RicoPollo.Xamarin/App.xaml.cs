@@ -11,9 +11,9 @@ namespace RicoPollo.Xamarin
             InitializeComponent();
 
             var page = new OKHOSTING.UI.Xamarin.Forms.Page();
+            page.App = new RicoPollo.UI.App();
 
-            var main = new RicoPollo.UI.Main();
-            main.Page = page;
+            var main = new RicoPollo.UI.Main(page);
 
             MainPage = page;
 

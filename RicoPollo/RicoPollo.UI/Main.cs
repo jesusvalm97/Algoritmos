@@ -4,11 +4,22 @@ using System.Text;
 using OKHOSTING.UI.Controls;
 using OKHOSTING.UI.Controls.Layout;
 using OKHOSTING.Core;
+using OKHOSTING.UI;
 
 namespace RicoPollo.UI
 {
     public class Main : OKHOSTING.UI.Controller
     {
+        public Main()
+        {
+
+        }
+
+        public Main(IPage page) : base(page)
+        {
+
+        }
+
         IListPicker listConvertionOne = BaitAndSwitch.Create<IListPicker>();
         IListPicker listConvertionTwo = BaitAndSwitch.Create<IListPicker>();
         ITextBox txtValue = BaitAndSwitch.Create<ITextBox>();

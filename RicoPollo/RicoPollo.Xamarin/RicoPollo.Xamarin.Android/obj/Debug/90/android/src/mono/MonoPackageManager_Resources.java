@@ -59,6 +59,7 @@ public class MonoPackageManager_Resources {
 		"XamForms.Controls.Calendar.dll",
 		"XamForms.Controls.Calendar.Droid.dll",
 		"OKHOSTING.Data.dll",
+		"OKHOSTING.UI.CSS.dll",
 		"RicoPollo.dll",
 		"OKHOSTING.UI.Xamarin.Forms.dll",
 	};

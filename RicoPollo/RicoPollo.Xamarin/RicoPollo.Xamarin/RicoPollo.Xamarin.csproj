@@ -16,9 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\OKHOSTING.Core\src\Standard\OKHOSTING.Core\OKHOSTING.Core.csproj" />
-    <ProjectReference Include="..\..\..\..\OKHOSTING.UI\src\Standard\OKHOSTING.UI\OKHOSTING.UI.csproj" />
-    <ProjectReference Include="..\..\..\..\OKHOSTING.UI\src\Xamarin\OKHOSTING.UI.Xamarin.Forms\OKHOSTING.UI.Xamarin.Forms.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.Core\src\Standard\OKHOSTING.Core\OKHOSTING.Core.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.UI\src\Standard\OKHOSTING.UI\OKHOSTING.UI.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.UI\src\Xamarin\OKHOSTING.UI.Xamarin.Forms\OKHOSTING.UI.Xamarin.Forms.csproj" />
     <ProjectReference Include="..\..\RicoPollo.UI\RicoPollo.UI.csproj" />
   </ItemGroup>
 </Project>

@@ -180,23 +180,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jesus\\.nuget\\packages\\": {},
+    "C:\\Users\\Developer\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Desarrollo\\Algoritmos\\RicoPollo\\RicoPollo\\RicoPollo.csproj",
+      "projectUniqueName": "C:\\Users\\Developer\\Documents\\Algoritmos\\RicoPollo\\RicoPollo\\RicoPollo.csproj",
       "projectName": "RicoPollo",
-      "projectPath": "C:\\Desarrollo\\Algoritmos\\RicoPollo\\RicoPollo\\RicoPollo.csproj",
-      "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
-      "outputPath": "C:\\Desarrollo\\Algoritmos\\RicoPollo\\RicoPollo\\obj\\",
+      "projectPath": "C:\\Users\\Developer\\Documents\\Algoritmos\\RicoPollo\\RicoPollo\\RicoPollo.csproj",
+      "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Developer\\Documents\\Algoritmos\\RicoPollo\\RicoPollo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -238,7 +238,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

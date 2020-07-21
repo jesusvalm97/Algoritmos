@@ -94,15 +94,15 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\OKHOSTING.Core\src\Standard\OKHOSTING.Core\OKHOSTING.Core.csproj">
-      <Project>{bd61362b-d26a-4566-b243-54d0ccc4c7c7}</Project>
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.Core\src\Standard\OKHOSTING.Core\OKHOSTING.Core.csproj">
+      <Project>{4b1c859d-3e48-4976-9d8c-81e3c1f16b84}</Project>
       <Name>OKHOSTING.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\..\OKHOSTING.UI\src\Standard\OKHOSTING.UI\OKHOSTING.UI.csproj">
-      <Project>{44f8a3bb-5a0e-49da-9551-0dcadd153394}</Project>
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.UI\src\Standard\OKHOSTING.UI\OKHOSTING.UI.csproj">
+      <Project>{b67caf93-4e1c-4a0e-9955-3bce3f6de356}</Project>
       <Name>OKHOSTING.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\..\OKHOSTING.UI\src\Xamarin\OKHOSTING.UI.Xamarin.Android\OKHOSTING.UI.Xamarin.Android.csproj">
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.UI\src\Xamarin\OKHOSTING.UI.Xamarin.Android\OKHOSTING.UI.Xamarin.Android.csproj">
       <Project>{1675aa1d-5dba-4007-9c8a-1e2316981088}</Project>
       <Name>OKHOSTING.UI.Xamarin.Android</Name>
     </ProjectReference>
