@@ -31,4 +31,5 @@ C:\Users\Developer\Documents\Algoritmos\ConsoleAppPDF\ConsoleAppPDF\obj\Debug\Co
 C:\Users\Developer\Documents\Algoritmos\ConsoleAppPDF\ConsoleAppPDF\obj\Debug\ConsoleAppPDF.csproj.CopyComplete
 C:\Users\Developer\Documents\Algoritmos\ConsoleAppPDF\ConsoleAppPDF\obj\Debug\ConsoleAppPDF.exe
 C:\Users\Developer\Documents\Algoritmos\ConsoleAppPDF\ConsoleAppPDF\obj\Debug\ConsoleAppPDF.pdb
-C:\Users\Developer\Documents\Algoritmos\ConsoleAppPDF\ConsoleAppPDF\obj\Debug\ConsoleAppPDF.csprojAssemblyReference.cache
+C:\Users\Developer\Documents\Algoritmos\ConsoleAppPDF\ConsoleAppPDF\obj\Debug\ConsoleAppPDF.Resources.Resources.resources
+C:\Users\Developer\Documents\Algoritmos\ConsoleAppPDF\ConsoleAppPDF\obj\Debug\ConsoleAppPDF.csproj.GenerateResource.cache

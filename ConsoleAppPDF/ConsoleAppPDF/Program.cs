@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using iText.IO.Image;
+using iText.Kernel.Colors;
 using iText.Kernel.Pdf;
 using iText.Kernel.Pdf.Canvas.Draw;
 using iText.Layout;
@@ -46,7 +48,92 @@ namespace ConsoleAppPDF
             document.Add(ls);
 
             //Create a image
+            Image image = new Image(ImageDataFactory
+                .Create(@"C:\Users\Developer\Pictures\BH2.png"))
+                .SetTextAlignment(TextAlignment.CENTER);
 
+            //Add the image in the document
+            document.Add(image);
+
+            //Create a table
+            Table table = new Table(2, false);
+
+            //Start fisrt row
+            //Create a cell
+            Cell cell11 = new Cell(1, 1)
+                .SetBackgroundColor(ColorConstants.GRAY)
+                .SetTextAlignment(TextAlignment.CENTER)
+                .Add(new Paragraph("State"));
+
+            //Add the cell in the table
+            table.AddCell(cell11);
+
+            //Create a cell
+            Cell cell12 = new Cell(1, 1)
+                .SetBackgroundColor(ColorConstants.GRAY)
+                .SetTextAlignment(TextAlignment.CENTER)
+                .Add(new Paragraph("Capital"));
+
+            //Add the cell in the table
+            table.AddCell(cell12);
+            //End first row
+
+            //Start second row
+            //Create a cell
+            Cell cell21 = new Cell(1, 1)
+                .SetTextAlignment(TextAlignment.CENTER)
+                .Add(new Paragraph("New York"));
+
+            //Add the cell in the table
+            table.AddCell(cell21);
+
+            //Create a cell
+            Cell cell22 = new Cell(1, 1)
+                .SetTextAlignment(TextAlignment.CENTER)
+                .Add(new Paragraph("Albany"));
+
+            //Add the cell in the table
+            table.AddCell(cell22);
+            //End second row
+
+            //Start third row
+            //Create a cell
+            Cell cell31 = new Cell(1, 1)
+                .SetTextAlignment(TextAlignment.CENTER)
+                .Add(new Paragraph("New Jersey"));
+
+            //Add the cell in the table
+            table.AddCell(cell31);
+
+            //Create a cell
+            Cell cell32 = new Cell(1, 1)
+                .SetTextAlignment(TextAlignment.CENTER)
+                .Add(new Paragraph("Trenton"));
+
+            //Add the cell in the table
+            table.AddCell(cell32);
+            //End third row
+
+            //Start four row
+            //Create a cell
+            Cell cell41 = new Cell(1, 1)
+                .SetTextAlignment(TextAlignment.CENTER)
+                .Add(new Paragraph("California"));
+
+            //Add the cell in the table
+            table.AddCell(cell41);
+
+            //Create a cell
+            Cell cell42 = new Cell(1, 1)
+                .SetTextAlignment(TextAlignment.CENTER)
+                .Add(new Paragraph("Sacramento"));
+
+            //Add the cell in the table
+            table.AddCell(cell42);
+            //End four row
+
+            //Add the table in the document
+            document.Add(table);
 
             //Close the document
             document.Close();
