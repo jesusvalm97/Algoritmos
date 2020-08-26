@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using iText.IO.Image;
 using iText.Kernel.Colors;
+using iText.Kernel.Geom;
 using iText.Kernel.Pdf;
 using iText.Kernel.Pdf.Action;
 using iText.Kernel.Pdf.Canvas.Draw;
@@ -53,7 +54,13 @@ namespace ConsoleAppPDF
             Image image = new Image(ImageDataFactory
                 .Create(@"C:\Users\Developer\Pictures\BH2.png"))
                 .SetTextAlignment(TextAlignment.CENTER)
-                .SetMarginTop(25);
+                //.SetMarginTop(25)
+                //.SetMarginBottom(25)
+                //.SetMarginLeft(25)
+                //.SetMarginRight(25)
+                .SetHeight(100)
+                .SetWidth(100);
+                //.SetRelativePosition( / 2, 250, 100, 100);
 
             //Add the image in the document
             document.Add(image);
