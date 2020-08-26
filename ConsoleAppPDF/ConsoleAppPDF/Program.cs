@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 using iText.IO.Image;
 using iText.Kernel.Colors;
 using iText.Kernel.Pdf;
+using iText.Kernel.Pdf.Action;
 using iText.Kernel.Pdf.Canvas.Draw;
 using iText.Layout;
 using iText.Layout.Element;
+using iText.Layout.Hyphenation;
 using iText.Layout.Properties;
 
 namespace ConsoleAppPDF
@@ -134,6 +136,16 @@ namespace ConsoleAppPDF
 
             //Add the table in the document
             document.Add(table);
+
+            //Create a Hyperlink
+            Link link = new Link("Click Here", PdfAction.CreateURI("https://github.com/jesusvalm97"));
+            Paragraph hiperLink = new Paragraph("Please")
+                .Add(link.SetBold().SetUnderline()
+                .SetItalic().SetFontColor(ColorConstants.BLUE))
+                .Add("to go my github profile.");
+
+            //Add the hiperlink in the document
+            document.Add(hiperLink);
 
             //Close the document
             document.Close();
