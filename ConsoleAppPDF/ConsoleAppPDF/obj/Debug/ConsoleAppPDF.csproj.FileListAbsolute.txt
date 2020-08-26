@@ -33,3 +33,4 @@ C:\Users\Developer\Documents\Algoritmos\ConsoleAppPDF\ConsoleAppPDF\obj\Debug\Co
 C:\Users\Developer\Documents\Algoritmos\ConsoleAppPDF\ConsoleAppPDF\obj\Debug\ConsoleAppPDF.pdb
 C:\Users\Developer\Documents\Algoritmos\ConsoleAppPDF\ConsoleAppPDF\obj\Debug\ConsoleAppPDF.Resources.Resources.resources
 C:\Users\Developer\Documents\Algoritmos\ConsoleAppPDF\ConsoleAppPDF\obj\Debug\ConsoleAppPDF.csproj.GenerateResource.cache
+C:\Users\Developer\Documents\Algoritmos\ConsoleAppPDF\ConsoleAppPDF\obj\Debug\ConsoleAppPDF.csprojAssemblyReference.cache

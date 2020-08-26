@@ -52,7 +52,8 @@ namespace ConsoleAppPDF
             //Create a image
             Image image = new Image(ImageDataFactory
                 .Create(@"C:\Users\Developer\Pictures\BH2.png"))
-                .SetTextAlignment(TextAlignment.CENTER);
+                .SetTextAlignment(TextAlignment.CENTER)
+                .SetMarginTop(25);
 
             //Add the image in the document
             document.Add(image);
