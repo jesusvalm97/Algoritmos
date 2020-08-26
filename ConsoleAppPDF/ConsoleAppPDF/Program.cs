@@ -147,6 +147,17 @@ namespace ConsoleAppPDF
             //Add the hiperlink in the document
             document.Add(hiperLink);
 
+            //Add a number of page in the corner of the page
+            int n = pdf.GetNumberOfPages();
+
+            for (int i = 1; i <= n; i++)
+            {
+                document.ShowTextAligned(new Paragraph(String
+                    .Format("page" + i + " of " + n)),
+                    559, 806, i, TextAlignment.RIGHT,
+                    VerticalAlignment.TOP, 0);
+            }
+
             //Close the document
             document.Close();
         }
