@@ -69,5 +69,15 @@ namespace RicoPollo.UI.Resources {
                 return ((byte[])(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] rp {
+            get {
+                object obj = ResourceManager.GetObject("rp", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

@@ -49,12 +49,14 @@ namespace RicoPollo.UI
             lblText.Text = "Selecciona el tipo de conversión, escribe la cantidad que deseas convertir y presiona el botón que dice ''Convertir''";
             lblText.FontSize = 20;
             lblText.FontColor = Color.White;
+            lblText.Margin = new Thickness(0, 15, 0, 0);
             stackContainer.Children.Add(lblText);
 
             ILabel lblFrom = BaitAndSwitch.Create<ILabel>();
             lblFrom.Text = "De: ";
             lblFrom.FontSize = 20;
             lblFrom.FontColor = Color.White;
+            lblFrom.Margin = new Thickness(0, 15, 0, 0);
             stackContainer.Children.Add(lblFrom);
 
             listConvertionOne.Items = new string[] { "Cubitos de Riko Pollo", "Peso Mexicano" };
@@ -66,6 +68,7 @@ namespace RicoPollo.UI
             lblTo.Text = "A: ";
             lblTo.FontSize = 20;
             lblTo.FontColor = Color.White;
+            lblTo.Margin = new Thickness(0, 15, 0, 0);
             stackContainer.Children.Add(lblTo);
 
             listConvertionTwo.Items = new string[] { "Peso Mexicano", "Cubitos de Riko Pollo" };
@@ -78,12 +81,14 @@ namespace RicoPollo.UI
             txtValue.ValueChanged += TextBoxNumber_ValueChanged;
             txtValue.FontSize = 20;
             txtValue.FontColor = Color.White;
+            txtValue.Margin = new Thickness(0, 15, 0, 0);
             stackContainer.Children.Add(txtValue);
 
             txtResult.Placeholder = "Resultado";
             txtResult.Enabled = false;
             txtResult.FontSize = 20;
             txtResult.FontColor = Color.White;
+            txtResult.Margin = new Thickness(0, 15, 0, 0);
             stackContainer.Children.Add(txtResult);
 
             IButton cmdConvert = BaitAndSwitch.Create<IButton>();
@@ -94,7 +99,13 @@ namespace RicoPollo.UI
             cmdConvert.BorderWidth = new Thickness(0);
             cmdConvert.FontSize = 20;
             cmdConvert.FontColor = Color.White;
+            cmdConvert.Margin = new Thickness(0, 15, 0, 0);
             stackContainer.Children.Add(cmdConvert);
+
+            IImage imgRikoPollo = BaitAndSwitch.Create<IImage>();
+            imgRikoPollo.LoadFromBytes(Resources.Images.rp);
+            imgRikoPollo.Margin = new Thickness(0, 15, 0, 0);
+            stackContainer.Children.Add(imgRikoPollo);
 
             Page.Content = stackMain;
         }
