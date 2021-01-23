@@ -28,7 +28,7 @@ namespace RicoPollo.UI
         protected override void OnStart()
         {
             IStack stackMain = BaitAndSwitch.Create<IStack>();
-            stackMain.Padding = new Thickness(25);
+            stackMain.Padding = new Thickness(30);
 
             ILabel lblTitle = BaitAndSwitch.Create<ILabel>();
             lblTitle.Text = "Conversion de Cubitos de Rico Pollo";
