@@ -30,14 +30,14 @@
           }
         }
       },
-      "AngleSharp.Css/0.14.1": {
+      "AngleSharp.Css/0.14.2": {
         "dependencies": {
           "AngleSharp": "0.14.0"
         },
         "runtime": {
           "lib/netstandard2.0/AngleSharp.Css.dll": {
-            "assemblyVersion": "0.14.1.0",
-            "fileVersion": "0.14.1.0"
+            "assemblyVersion": "0.14.2.0",
+            "fileVersion": "0.14.2.0"
           }
         }
       },
@@ -137,7 +137,7 @@
       "OKHOSTING.UI.CSS/1.0.0": {
         "dependencies": {
           "AngleSharp": "0.14.0",
-          "AngleSharp.Css": "0.14.1",
+          "AngleSharp.Css": "0.14.2",
           "OKHOSTING.Core": "2.0.4",
           "OKHOSTING.Data": "2.0.5",
           "OKHOSTING.UI": "1.0.0"
@@ -166,12 +166,12 @@
       "path": "anglesharp/0.14.0",
       "hashPath": "anglesharp.0.14.0.nupkg.sha512"
     },
-    "AngleSharp.Css/0.14.1": {
+    "AngleSharp.Css/0.14.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-85kQpw9Kg2cFCfx9wMbmvQUwzcYpMVN4DCrZNXlV0YSQgrUaOHuw/RvRYQo1+bJMDXTwjPX9X0Er6hbKhAiTdg==",
-      "path": "anglesharp.css/0.14.1",
-      "hashPath": "anglesharp.css.0.14.1.nupkg.sha512"
+      "sha512": "sha512-2USpPu9V/+1iBwHpanBsqr1eR+3vxKe19ZsnejbZfxNOadsMvUUkJ+0OjMsQmT0ExSW4vjCKXq9K/JWv0ie8JQ==",
+      "path": "anglesharp.css/0.14.2",
+      "hashPath": "anglesharp.css.0.14.2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

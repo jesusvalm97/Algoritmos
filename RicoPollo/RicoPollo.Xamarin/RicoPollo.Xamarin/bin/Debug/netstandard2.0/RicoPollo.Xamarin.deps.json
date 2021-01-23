@@ -14,8 +14,8 @@
           "OKHOSTING.UI": "1.0.0",
           "OKHOSTING.UI.Xamarin.Forms": "1.0.0",
           "RicoPollo.UI": "1.0.0",
-          "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.7.0.1080"
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Forms": "4.8.0.1821"
         },
         "runtime": {
           "RicoPollo.Xamarin.dll": {}
@@ -32,14 +32,14 @@
           }
         }
       },
-      "AngleSharp.Css/0.14.1": {
+      "AngleSharp.Css/0.14.2": {
         "dependencies": {
           "AngleSharp": "0.14.0"
         },
         "runtime": {
           "lib/netstandard2.0/AngleSharp.Css.dll": {
-            "assemblyVersion": "0.14.1.0",
-            "fileVersion": "0.14.1.0"
+            "assemblyVersion": "0.14.2.0",
+            "fileVersion": "0.14.2.0"
           }
         }
       },
@@ -59,7 +59,7 @@
       },
       "Octane.Xam.VideoPlayer/3.1.0": {
         "dependencies": {
-          "Xamarin.Forms": "4.7.0.1080"
+          "Xamarin.Forms": "4.8.0.1821"
         },
         "runtime": {
           "lib/netstandard2.0/Octane.Xamarin.Forms.VideoPlayer.dll": {
@@ -95,7 +95,7 @@
           }
         }
       },
-      "Xamarin.Essentials/1.3.1": {
+      "Xamarin.Essentials/1.5.3.2": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -106,25 +106,60 @@
           }
         }
       },
-      "Xamarin.Forms/4.7.0.1080": {
+      "Xamarin.FFImageLoading/2.4.11.982": {
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Platform.dll": {
+            "assemblyVersion": "2.4.11.982",
+            "fileVersion": "2.4.11.982"
+          },
+          "lib/netstandard1.0/FFImageLoading.dll": {
+            "assemblyVersion": "2.4.11.982",
+            "fileVersion": "2.4.11.982"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading.Forms/2.4.11.982": {
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.11.982",
+          "Xamarin.Forms": "4.8.0.1821"
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Forms.dll": {
+            "assemblyVersion": "2.4.11.982",
+            "fileVersion": "2.4.11.982"
+          }
+        }
+      },
+      "Xamarin.Forms/4.8.0.1821": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.7.0.439"
+            "fileVersion": "4.8.0.410"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.7.0.439"
+            "fileVersion": "4.8.0.410"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.7.0.439"
+            "fileVersion": "4.8.0.410"
+          }
+        }
+      },
+      "Xamarin.Forms.Maps/4.8.0.1821": {
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1821"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.8.0.410"
           }
         }
       },
       "XamForms.Enhanced.Calendar/1.4.0": {
         "dependencies": {
-          "Xamarin.Forms": "4.7.0.1080"
+          "Xamarin.Forms": "4.8.0.1821"
         },
         "runtime": {
           "lib/netstandard2.0/XamForms.Controls.Calendar.dll": {
@@ -196,7 +231,7 @@
       "OKHOSTING.UI.CSS/1.0.0": {
         "dependencies": {
           "AngleSharp": "0.14.0",
-          "AngleSharp.Css": "0.14.1",
+          "AngleSharp.Css": "0.14.2",
           "OKHOSTING.Core": "2.0.4",
           "OKHOSTING.Data": "2.0.5",
           "OKHOSTING.UI": "1.0.0"
@@ -212,7 +247,10 @@
           "OKHOSTING.UI": "1.0.0",
           "Octane.Xam.VideoPlayer": "3.1.0",
           "XamForms.Enhanced.Calendar": "1.4.0",
-          "Xamarin.Forms": "4.7.0.1080"
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.FFImageLoading.Forms": "2.4.11.982",
+          "Xamarin.Forms": "4.8.0.1821",
+          "Xamarin.Forms.Maps": "4.8.0.1821"
         },
         "runtime": {
           "OKHOSTING.UI.Xamarin.Forms.dll": {}
@@ -249,12 +287,12 @@
       "path": "anglesharp/0.14.0",
       "hashPath": "anglesharp.0.14.0.nupkg.sha512"
     },
-    "AngleSharp.Css/0.14.1": {
+    "AngleSharp.Css/0.14.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-85kQpw9Kg2cFCfx9wMbmvQUwzcYpMVN4DCrZNXlV0YSQgrUaOHuw/RvRYQo1+bJMDXTwjPX9X0Er6hbKhAiTdg==",
-      "path": "anglesharp.css/0.14.1",
-      "hashPath": "anglesharp.css.0.14.1.nupkg.sha512"
+      "sha512": "sha512-2USpPu9V/+1iBwHpanBsqr1eR+3vxKe19ZsnejbZfxNOadsMvUUkJ+0OjMsQmT0ExSW4vjCKXq9K/JWv0ie8JQ==",
+      "path": "anglesharp.css/0.14.2",
+      "hashPath": "anglesharp.css.0.14.2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -305,19 +343,40 @@
       "path": "system.text.encoding.codepages/4.5.0",
       "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.3.1": {
+    "Xamarin.Essentials/1.5.3.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+51728AdZ/qtABGvcIaNXgEoL2jAtxAXLHS8PvGCP0pb6n7twBqYpfgkmwHYVgu+U99szgtL+Jot8L+OXorPcA==",
-      "path": "xamarin.essentials/1.3.1",
-      "hashPath": "xamarin.essentials.1.3.1.nupkg.sha512"
+      "sha512": "sha512-BSLgDJUOPFRwTpQaftM+s4qb/MsTjrqXulEYDOcK6KF3i0Orf75zo3RwRfqnQ8WfpoEFxW/v0jgcPWCvOMgHxg==",
+      "path": "xamarin.essentials/1.5.3.2",
+      "hashPath": "xamarin.essentials.1.5.3.2.nupkg.sha512"
     },
-    "Xamarin.Forms/4.7.0.1080": {
+    "Xamarin.FFImageLoading/2.4.11.982": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YN04zJoVBBKdhYnIK1lwZJTGCFrHJ+bUfqQK4aKy8oDjthh5JlNcjetUS+eV+JK9XcmYpS2SxpmDxFFXxSfONQ==",
-      "path": "xamarin.forms/4.7.0.1080",
-      "hashPath": "xamarin.forms.4.7.0.1080.nupkg.sha512"
+      "sha512": "sha512-M0sNIQgUPs+le6C2TS4RmZQAURnzaRVizRtnZIZ6/1//qGcEAtEXAGt/tBJz6I1zlP6XlMxq8io6b4sjFP5N9Q==",
+      "path": "xamarin.ffimageloading/2.4.11.982",
+      "hashPath": "xamarin.ffimageloading.2.4.11.982.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading.Forms/2.4.11.982": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7X4t3J1wJj0/0o8+vd91hzSYlrqEeMFC7Mj+0T8O+fcbRSHo/c+QbWscEQiT4AaKCwyO709xq+7aY2XXbK/H7g==",
+      "path": "xamarin.ffimageloading.forms/2.4.11.982",
+      "hashPath": "xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512"
+    },
+    "Xamarin.Forms/4.8.0.1821": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3e/5DwE/bExRLtM1tA3iI9E6TCnIF+e9+lINgwLOUs0g49ebFmQiNDXBKb06jmqqV4VyNaUGZqs0bI13ruv8bQ==",
+      "path": "xamarin.forms/4.8.0.1821",
+      "hashPath": "xamarin.forms.4.8.0.1821.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/4.8.0.1821": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l1Z5PpNaa0Q1O6A/J+QImuHODpzJNCh2Pb0tIDZ3YjT/rgJ24I3cj4xXcQfjV8VEKWLy3eL6h2IA5FG0bvfGsA==",
+      "path": "xamarin.forms.maps/4.8.0.1821",
+      "hashPath": "xamarin.forms.maps.4.8.0.1821.nupkg.sha512"
     },
     "XamForms.Enhanced.Calendar/1.4.0": {
       "type": "package",

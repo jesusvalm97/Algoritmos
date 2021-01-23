@@ -11,19 +11,19 @@ namespace RicoPollo.UI
         {
             base.StartController(controller);
 
-            OKHOSTING.UI.CSS.Style style = new OKHOSTING.UI.CSS.Style();
-            var assembly = typeof(App).Assembly;
-            var resourceName = "RicoPollo.UI.Style.css";
+            //OKHOSTING.UI.CSS.Style style = new OKHOSTING.UI.CSS.Style();
+            //var assembly = typeof(App).Assembly;
+            //var resourceName = "RicoPollo.UI.Style.css";
 
-            using (Stream stream = assembly.GetManifestResourceStream(resourceName))
-            using (StreamReader reader = new StreamReader(stream))
-            {
-                string css = reader.ReadToEnd();
-                style.Parse(css);
-            }
+            //using (Stream stream = assembly.GetManifestResourceStream(resourceName))
+            //using (StreamReader reader = new StreamReader(stream))
+            //{
+            //    string css = reader.ReadToEnd();
+            //    style.Parse(css);
+            //}
 
 
-            style.Apply(controller.Page);
+            //style.Apply(controller.Page);
         }
     }
 }

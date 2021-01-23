@@ -8,8 +8,6 @@ namespace RicoPollo.Xamarin
     {
         public App()
         {
-            InitializeComponent();
-
             var page = new OKHOSTING.UI.Xamarin.Forms.Page();
             page.App = new RicoPollo.UI.App();
 

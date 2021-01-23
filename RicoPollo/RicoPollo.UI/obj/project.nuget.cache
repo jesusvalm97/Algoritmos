@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "GFT1WDvkWFDHIpq0Gx8sbihRMA70/G/b4W1t25UOXIFUrhyCodGfzBTLec4dm4LS9cLhxq3JhZBJDRNiJHk6aQ==",
+  "dgSpecHash": "/O+z+hJucB2d4ye6J0+1xbb3VJeVKZ6pc9xyuk7IFZbi+N6e8W2eDrwU5u7WZfP7ILtu/gHWcXLo4aaTfq7G3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Developer\\Documents\\Algoritmos\\RicoPollo\\RicoPollo.UI\\RicoPollo.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Developer\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
-    "C:\\Users\\Developer\\.nuget\\packages\\anglesharp.css\\0.14.1\\anglesharp.css.0.14.1.nupkg.sha512",
+    "C:\\Users\\Developer\\.nuget\\packages\\anglesharp.css\\0.14.2\\anglesharp.css.0.14.2.nupkg.sha512",
     "C:\\Users\\Developer\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Developer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Developer\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",

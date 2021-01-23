@@ -14,3 +14,4 @@ C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo\obj\Debug\netstandar
 C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo\obj\Debug\netstandard2.0\RicoPollo.csproj.CoreCompileInputs.cache
 C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo\obj\Debug\netstandard2.0\RicoPollo.dll
 C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo\obj\Debug\netstandard2.0\RicoPollo.pdb
+C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo\obj\Debug\netstandard2.0\RicoPollo.csprojAssemblyReference.cache
