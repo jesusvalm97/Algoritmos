@@ -1,0 +1,8 @@
+C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo\bin\Release\netstandard2.0\RicoPollo.deps.json
+C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo\bin\Release\netstandard2.0\RicoPollo.dll
+C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo\bin\Release\netstandard2.0\RicoPollo.pdb
+C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo\obj\Release\netstandard2.0\RicoPollo.AssemblyInfoInputs.cache
+C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo\obj\Release\netstandard2.0\RicoPollo.AssemblyInfo.cs
+C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo\obj\Release\netstandard2.0\RicoPollo.csproj.CoreCompileInputs.cache
+C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo\obj\Release\netstandard2.0\RicoPollo.dll
+C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo\obj\Release\netstandard2.0\RicoPollo.pdb

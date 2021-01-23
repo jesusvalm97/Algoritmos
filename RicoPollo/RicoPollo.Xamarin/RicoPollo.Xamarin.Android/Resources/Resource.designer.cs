@@ -784,6 +784,8 @@ namespace RicoPollo.Xamarin.Droid
 			global::OKHOSTING.UI.Xamarin.Android.Resource.String.abc_shareactionprovider_share_with = global::RicoPollo.Xamarin.Droid.Resource.String.abc_shareactionprovider_share_with;
 			global::OKHOSTING.UI.Xamarin.Android.Resource.String.abc_shareactionprovider_share_with_application = global::RicoPollo.Xamarin.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::OKHOSTING.UI.Xamarin.Android.Resource.String.abc_toolbar_collapse_description = global::RicoPollo.Xamarin.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::OKHOSTING.UI.Xamarin.Android.Resource.String.app_name = global::RicoPollo.Xamarin.Droid.Resource.String.app_name;
+			global::OKHOSTING.UI.Xamarin.Android.Resource.String.hello = global::RicoPollo.Xamarin.Droid.Resource.String.hello;
 			global::OKHOSTING.UI.Xamarin.Android.Resource.String.search_menu_title = global::RicoPollo.Xamarin.Droid.Resource.String.search_menu_title;
 			global::OKHOSTING.UI.Xamarin.Android.Resource.String.status_bar_notification_info_overflow = global::RicoPollo.Xamarin.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::OKHOSTING.UI.Xamarin.Android.Resource.Style.AlertDialog_AppCompat = global::RicoPollo.Xamarin.Droid.Resource.Style.AlertDialog_AppCompat;
