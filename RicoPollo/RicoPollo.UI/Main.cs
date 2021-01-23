@@ -5,6 +5,7 @@ using OKHOSTING.UI.Controls;
 using OKHOSTING.UI.Controls.Layout;
 using OKHOSTING.Core;
 using OKHOSTING.UI;
+using System.Drawing;
 
 namespace RicoPollo.UI
 {
@@ -27,45 +28,73 @@ namespace RicoPollo.UI
 
         protected override void OnStart()
         {
+            IImage backgroundMain = BaitAndSwitch.Create<IImage>();
+            backgroundMain.LoadFromBytes(Resources.Images.backgroundMain);
+
             IStack stackMain = BaitAndSwitch.Create<IStack>();
-            stackMain.Padding = new Thickness(30);
+            stackMain.BackgroundImage = backgroundMain;
+
+            IStack stackContainer = BaitAndSwitch.Create<IStack>();
+            stackContainer.Padding = new Thickness(30);
+            stackMain.Children.Add(stackContainer);
 
             ILabel lblTitle = BaitAndSwitch.Create<ILabel>();
-            lblTitle.Text = "Conversion de Cubitos de Rico Pollo";
+            lblTitle.Text = "Conversión de Cubitos de Riko Pollo";
             lblTitle.Bold = true;
-            stackMain.Children.Add(lblTitle);
+            lblTitle.FontSize = 30;
+            lblTitle.FontColor = Color.White;
+            stackContainer.Children.Add(lblTitle);
 
             ILabel lblText = BaitAndSwitch.Create<ILabel>();
-            lblText.Text = "Selecciona el tipo de conversion, escribe la cantidad que deseas convertir y presiona el botón";
-            stackMain.Children.Add(lblText);
+            lblText.Text = "Selecciona el tipo de conversión, escribe la cantidad que deseas convertir y presiona el botón que dice ''Convertir''";
+            lblText.FontSize = 20;
+            lblText.FontColor = Color.White;
+            stackContainer.Children.Add(lblText);
 
             ILabel lblFrom = BaitAndSwitch.Create<ILabel>();
             lblFrom.Text = "De: ";
-            stackMain.Children.Add(lblFrom);
+            lblFrom.FontSize = 20;
+            lblFrom.FontColor = Color.White;
+            stackContainer.Children.Add(lblFrom);
 
-            listConvertionOne.Items = new string[] { "Cubitos de Rico Pollo", "Peso Mexicano" };
-            stackMain.Children.Add(listConvertionOne);
+            listConvertionOne.Items = new string[] { "Cubitos de Riko Pollo", "Peso Mexicano" };
+            listConvertionOne.FontSize = 20;
+            listConvertionOne.FontColor = Color.White;
+            stackContainer.Children.Add(listConvertionOne);
 
             ILabel lblTo = BaitAndSwitch.Create<ILabel>();
             lblTo.Text = "A: ";
-            stackMain.Children.Add(lblTo);
+            lblTo.FontSize = 20;
+            lblTo.FontColor = Color.White;
+            stackContainer.Children.Add(lblTo);
 
-            listConvertionTwo.Items = new string[] { "Peso Mexicano", "Cubitos de Rico Pollo" };
-            stackMain.Children.Add(listConvertionTwo);
+            listConvertionTwo.Items = new string[] { "Peso Mexicano", "Cubitos de Riko Pollo" };
+            listConvertionTwo.FontSize = 20;
+            listConvertionTwo.FontColor = Color.White;
+            stackContainer.Children.Add(listConvertionTwo);
 
             txtValue.Placeholder = "Valor a  Convertir";
             txtValue.Tag = txtValue;
             txtValue.ValueChanged += TextBoxNumber_ValueChanged;
-            stackMain.Children.Add(txtValue);
+            txtValue.FontSize = 20;
+            txtValue.FontColor = Color.White;
+            stackContainer.Children.Add(txtValue);
 
             txtResult.Placeholder = "Resultado";
             txtResult.Enabled = false;
-            stackMain.Children.Add(txtResult);
+            txtResult.FontSize = 20;
+            txtResult.FontColor = Color.White;
+            stackContainer.Children.Add(txtResult);
 
             IButton cmdConvert = BaitAndSwitch.Create<IButton>();
             cmdConvert.Text = "Convertir";
             cmdConvert.Click += CmdConvert_Click;
-            stackMain.Children.Add(cmdConvert);
+            cmdConvert.FontColor = Color.White;
+            cmdConvert.BackgroundColor = Color.FromArgb(255, 47, 131, 45);
+            cmdConvert.BorderWidth = new Thickness(0);
+            cmdConvert.FontSize = 20;
+            cmdConvert.FontColor = Color.White;
+            stackContainer.Children.Add(cmdConvert);
 
             Page.Content = stackMain;
         }
@@ -77,12 +106,12 @@ namespace RicoPollo.UI
                 txtResult.Value = txtValue.Value;
             }
 
-            else if (listConvertionOne.Value == "Cubitos de Rico Pollo" && listConvertionTwo.Value == "Peso Mexicano")
+            else if (listConvertionOne.Value == "Cubitos de Riko Pollo" && listConvertionTwo.Value == "Peso Mexicano")
             {
                 txtResult.Value = Conversion.CubitosRicoPolloADinero(double.Parse(txtValue.Value)).ToString();
             }
 
-            else if (listConvertionOne.Value == "Peso Mexicano" && listConvertionTwo.Value == "Cubitos de Rico Pollo")
+            else if (listConvertionOne.Value == "Peso Mexicano" && listConvertionTwo.Value == "Cubitos de Riko Pollo")
             {
                 txtResult.Value =  Conversion.DineroACubitosRicoPollo(double.Parse(txtValue.Value)).ToString();
             }

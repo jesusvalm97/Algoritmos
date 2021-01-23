@@ -60,3 +60,5 @@ C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo.UI\obj\Debug\netstan
 C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo.UI\obj\Debug\netstandard2.0\RicoPollo.UI.csproj.CopyComplete
 C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo.UI\obj\Debug\netstandard2.0\RicoPollo.UI.dll
 C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo.UI\obj\Debug\netstandard2.0\RicoPollo.UI.pdb
+C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo.UI\obj\Debug\netstandard2.0\RicoPollo.UI.Resources.Images.resources
+C:\Users\Developer\Documents\Algoritmos\RicoPollo\RicoPollo.UI\obj\Debug\netstandard2.0\RicoPollo.UI.csproj.GenerateResource.cache
