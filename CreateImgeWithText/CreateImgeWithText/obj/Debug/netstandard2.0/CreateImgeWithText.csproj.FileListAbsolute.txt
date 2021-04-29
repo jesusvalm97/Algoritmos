@@ -1,0 +1,9 @@
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\CreateImgeWithText\bin\Debug\netstandard2.0\CreateImgeWithText.deps.json
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\CreateImgeWithText\bin\Debug\netstandard2.0\CreateImgeWithText.dll
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\CreateImgeWithText\bin\Debug\netstandard2.0\CreateImgeWithText.pdb
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\CreateImgeWithText\obj\Debug\netstandard2.0\CreateImgeWithText.csprojAssemblyReference.cache
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\CreateImgeWithText\obj\Debug\netstandard2.0\CreateImgeWithText.AssemblyInfoInputs.cache
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\CreateImgeWithText\obj\Debug\netstandard2.0\CreateImgeWithText.AssemblyInfo.cs
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\CreateImgeWithText\obj\Debug\netstandard2.0\CreateImgeWithText.csproj.CoreCompileInputs.cache
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\CreateImgeWithText\obj\Debug\netstandard2.0\CreateImgeWithText.dll
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\CreateImgeWithText\obj\Debug\netstandard2.0\CreateImgeWithText.pdb

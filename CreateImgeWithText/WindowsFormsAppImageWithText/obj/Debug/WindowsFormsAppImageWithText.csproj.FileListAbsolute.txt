@@ -1,0 +1,10 @@
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\WindowsFormsAppImageWithText\bin\Debug\WindowsFormsAppImageWithText.exe.config
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\WindowsFormsAppImageWithText\bin\Debug\WindowsFormsAppImageWithText.exe
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\WindowsFormsAppImageWithText\bin\Debug\WindowsFormsAppImageWithText.pdb
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\WindowsFormsAppImageWithText\obj\Debug\WindowsFormsAppImageWithText.csprojAssemblyReference.cache
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\WindowsFormsAppImageWithText\obj\Debug\WindowsFormsAppImageWithText.Form1.resources
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\WindowsFormsAppImageWithText\obj\Debug\WindowsFormsAppImageWithText.Properties.Resources.resources
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\WindowsFormsAppImageWithText\obj\Debug\WindowsFormsAppImageWithText.csproj.GenerateResource.cache
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\WindowsFormsAppImageWithText\obj\Debug\WindowsFormsAppImageWithText.csproj.CoreCompileInputs.cache
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\WindowsFormsAppImageWithText\obj\Debug\WindowsFormsAppImageWithText.exe
+C:\Users\Developer\Documents\Algoritmos\CreateImgeWithText\WindowsFormsAppImageWithText\obj\Debug\WindowsFormsAppImageWithText.pdb

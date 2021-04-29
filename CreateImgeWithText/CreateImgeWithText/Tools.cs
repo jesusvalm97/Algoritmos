@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Drawing;
 
 namespace CreateImgeWithText
 {
-    public class Class1
+    public class Tools
     {
     }
 }
