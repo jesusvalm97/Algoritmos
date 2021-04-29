@@ -1,0 +1,9 @@
+C:\Users\Developer\Documents\Algoritmos\TestConsoleApp\TestConsole\TestConsole\bin\Debug\netstandard2.0\TestConsole.deps.json
+C:\Users\Developer\Documents\Algoritmos\TestConsoleApp\TestConsole\TestConsole\bin\Debug\netstandard2.0\TestConsole.dll
+C:\Users\Developer\Documents\Algoritmos\TestConsoleApp\TestConsole\TestConsole\bin\Debug\netstandard2.0\TestConsole.pdb
+C:\Users\Developer\Documents\Algoritmos\TestConsoleApp\TestConsole\TestConsole\obj\Debug\netstandard2.0\TestConsole.csprojAssemblyReference.cache
+C:\Users\Developer\Documents\Algoritmos\TestConsoleApp\TestConsole\TestConsole\obj\Debug\netstandard2.0\TestConsole.AssemblyInfoInputs.cache
+C:\Users\Developer\Documents\Algoritmos\TestConsoleApp\TestConsole\TestConsole\obj\Debug\netstandard2.0\TestConsole.AssemblyInfo.cs
+C:\Users\Developer\Documents\Algoritmos\TestConsoleApp\TestConsole\TestConsole\obj\Debug\netstandard2.0\TestConsole.csproj.CoreCompileInputs.cache
+C:\Users\Developer\Documents\Algoritmos\TestConsoleApp\TestConsole\TestConsole\obj\Debug\netstandard2.0\TestConsole.dll
+C:\Users\Developer\Documents\Algoritmos\TestConsoleApp\TestConsole\TestConsole\obj\Debug\netstandard2.0\TestConsole.pdb

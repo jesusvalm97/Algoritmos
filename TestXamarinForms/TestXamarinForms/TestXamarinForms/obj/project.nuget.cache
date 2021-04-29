@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "yHx8N547MsuObdPZeD8VrczuG/X7TabBeDXBXh3ZkiW7U4/s3GEJAPWiqLbJj3tA0e2K5Mab5koXwrf+bNKiqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Developer\\Documents\\Algoritmos\\TestXamarinForms\\TestXamarinForms\\TestXamarinForms\\TestXamarinForms.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Developer\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Developer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Developer\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Developer\\.nuget\\packages\\octane.xam.videoplayer\\3.1.0\\octane.xam.videoplayer.3.1.0.nupkg.sha512",
+    "C:\\Users\\Developer\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Developer\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Developer\\.nuget\\packages\\xamarin.forms\\4.6.0.800\\xamarin.forms.4.6.0.800.nupkg.sha512",
+    "C:\\Users\\Developer\\.nuget\\packages\\xamarin.forms.maps\\4.6.0.800\\xamarin.forms.maps.4.6.0.800.nupkg.sha512"
+  ],
+  "logs": []
+}

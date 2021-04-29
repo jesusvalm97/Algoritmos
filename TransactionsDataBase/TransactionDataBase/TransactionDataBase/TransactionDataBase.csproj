@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DB0C3362-AE51-462C-B47E-123DA76255A5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TransactionDataBase</RootNamespace>
+    <AssemblyName>TransactionDataBase</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\Locki\src\Standard\Locki\Locki.csproj">
+      <Project>{2fff2ecd-cd2c-4b55-985e-84cd6c750a1e}</Project>
+      <Name>Locki</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.Core\src\Standard\OKHOSTING.Core\OKHOSTING.Core.csproj">
+      <Project>{567cc25b-df4e-4937-8b90-72c8d96e287f}</Project>
+      <Name>OKHOSTING.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.Data\src\Standard\OKHOSTING.Data\OKHOSTING.Data.csproj">
+      <Project>{59a73fd9-5bd5-44d3-962d-d5c433baf159}</Project>
+      <Name>OKHOSTING.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.ERP\src\Standard\OKHOSTING.ERP\OKHOSTING.ERP.csproj">
+      <Project>{41dfe887-6499-40ac-b490-4297665465fa}</Project>
+      <Name>OKHOSTING.ERP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.ORM\src\Standard\OKHOSTING.ORM.Cryptography\OKHOSTING.ORM.Cryptography.csproj">
+      <Project>{710a5814-1bb5-48cb-a5e3-3bd3588a12a3}</Project>
+      <Name>OKHOSTING.ORM.Cryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.ORM\src\Standard\OKHOSTING.ORM\OKHOSTING.ORM.csproj">
+      <Project>{42911980-44c0-4fd2-8f60-1d4846356009}</Project>
+      <Name>OKHOSTING.ORM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.People\src\OKHOSTING.People\OKHOSTING.People.csproj">
+      <Project>{54faaefd-aaf9-425a-9252-a9a5bfa85e99}</Project>
+      <Name>OKHOSTING.People</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.Security\src\Standard\OKHOSTING.Security.ORM\OKHOSTING.Security.ORM.csproj">
+      <Project>{5a56f28a-3b3f-4568-b7d3-c07fb576c54a}</Project>
+      <Name>OKHOSTING.Security.ORM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.Security\src\Standard\OKHOSTING.Security\OKHOSTING.Security.csproj">
+      <Project>{d0f5913d-cf72-4156-b031-0f7677749c8e}</Project>
+      <Name>OKHOSTING.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.SQL\src\Standard\OKHOSTING.SQL.DbProviders.MySql\OKHOSTING.SQL.DbProviders.MySql.csproj">
+      <Project>{29aa4672-f55f-4012-a76d-75f2036e7726}</Project>
+      <Name>OKHOSTING.SQL.DbProviders.MySql</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.SQL\src\Standard\OKHOSTING.SQL.DbProviders\OKHOSTING.SQL.DbProviders.csproj">
+      <Project>{3a8567bf-c73a-4762-93d2-f16b40cace4f}</Project>
+      <Name>OKHOSTING.SQL.DbProviders</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\Desarrollo\OKHOSTING.SQL\src\Standard\OKHOSTING.SQL\OKHOSTING.SQL.csproj">
+      <Project>{5d3d0ab5-8f51-47a7-afdf-b22779000814}</Project>
+      <Name>OKHOSTING.SQL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

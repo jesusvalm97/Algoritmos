@@ -1,0 +1,10 @@
+C:\Users\Developer\Documents\Algoritmos\DragDropFile\DragDropFileWinForms\bin\Debug\DragDropFileWinForms.exe.config
+C:\Users\Developer\Documents\Algoritmos\DragDropFile\DragDropFileWinForms\bin\Debug\DragDropFileWinForms.exe
+C:\Users\Developer\Documents\Algoritmos\DragDropFile\DragDropFileWinForms\bin\Debug\DragDropFileWinForms.pdb
+C:\Users\Developer\Documents\Algoritmos\DragDropFile\DragDropFileWinForms\obj\Debug\DragDropFileWinForms.csprojAssemblyReference.cache
+C:\Users\Developer\Documents\Algoritmos\DragDropFile\DragDropFileWinForms\obj\Debug\DragDropFileWinForms.Form1.resources
+C:\Users\Developer\Documents\Algoritmos\DragDropFile\DragDropFileWinForms\obj\Debug\DragDropFileWinForms.Properties.Resources.resources
+C:\Users\Developer\Documents\Algoritmos\DragDropFile\DragDropFileWinForms\obj\Debug\DragDropFileWinForms.csproj.GenerateResource.cache
+C:\Users\Developer\Documents\Algoritmos\DragDropFile\DragDropFileWinForms\obj\Debug\DragDropFileWinForms.csproj.CoreCompileInputs.cache
+C:\Users\Developer\Documents\Algoritmos\DragDropFile\DragDropFileWinForms\obj\Debug\DragDropFileWinForms.exe
+C:\Users\Developer\Documents\Algoritmos\DragDropFile\DragDropFileWinForms\obj\Debug\DragDropFileWinForms.pdb

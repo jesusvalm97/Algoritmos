@@ -1,0 +1,139 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "TestXamarinForms.UI/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "OKHOSTING.Core": "2.0.4",
+          "OKHOSTING.UI": "1.0.0"
+        },
+        "runtime": {
+          "TestXamarinForms.UI.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "OKHOSTING.Core/2.0.4": {
+        "runtime": {
+          "OKHOSTING.Core.dll": {}
+        }
+      },
+      "OKHOSTING.Data/2.0.5": {
+        "dependencies": {
+          "OKHOSTING.Core": "2.0.4"
+        },
+        "runtime": {
+          "OKHOSTING.Data.dll": {}
+        },
+        "resources": {
+          "ar/OKHOSTING.Data.resources.dll": {
+            "locale": "ar"
+          },
+          "de/OKHOSTING.Data.resources.dll": {
+            "locale": "de"
+          },
+          "es/OKHOSTING.Data.resources.dll": {
+            "locale": "es"
+          },
+          "fr/OKHOSTING.Data.resources.dll": {
+            "locale": "fr"
+          },
+          "it/OKHOSTING.Data.resources.dll": {
+            "locale": "it"
+          },
+          "ja/OKHOSTING.Data.resources.dll": {
+            "locale": "ja"
+          },
+          "pt/OKHOSTING.Data.resources.dll": {
+            "locale": "pt"
+          },
+          "ru/OKHOSTING.Data.resources.dll": {
+            "locale": "ru"
+          },
+          "zh-Hans/OKHOSTING.Data.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "OKHOSTING.UI/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "OKHOSTING.Core": "2.0.4",
+          "OKHOSTING.Data": "2.0.5"
+        },
+        "runtime": {
+          "OKHOSTING.UI.dll": {}
+        },
+        "resources": {
+          "es/OKHOSTING.UI.resources.dll": {
+            "locale": "es"
+          },
+          "pt/OKHOSTING.UI.resources.dll": {
+            "locale": "pt"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestXamarinForms.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "OKHOSTING.Core/2.0.4": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OKHOSTING.Data/2.0.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OKHOSTING.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
