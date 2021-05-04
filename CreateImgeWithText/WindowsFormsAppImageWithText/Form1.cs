@@ -33,7 +33,7 @@ namespace WindowsFormsAppImageWithText
             drawing.Dispose();
 
             //create a new image of the right size
-            img = new Bitmap((int)textSize.Width, (int)textSize.Height);
+            img = new Bitmap(400, 300);
             drawing = Graphics.FromImage(img);
 
             //paint the background
@@ -42,7 +42,16 @@ namespace WindowsFormsAppImageWithText
             //create a brush for the text
             Brush textBrush = new SolidBrush(Color.Black);
 
-            drawing.DrawString(text, new Font("Brush Script MT", 30), textBrush, 0, 0);
+            //create a string format for the text
+            StringFormat stringFormat = new StringFormat();
+            stringFormat.Alignment = StringAlignment.Center;
+            stringFormat.LineAlignment = StringAlignment.Center;
+
+            //drawing.DrawString(NameCompanyContact, new Font("Brush Script MT", 30), textBrush, 0, 0);
+
+            Rectangle rect1 = new Rectangle(10, 10, 400, 300);
+
+            drawing.DrawString(text, new Font("Brush Script MT", 30), textBrush, rect1, stringFormat);
 
             drawing.Save();
 
